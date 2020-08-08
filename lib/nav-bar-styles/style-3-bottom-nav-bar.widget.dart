@@ -68,7 +68,7 @@ class BottomNavStyle3 extends StatelessWidget {
                   item.title == null
                       ? SizedBox.shrink()
                       : Padding(
-                          padding: const EdgeInsets.only(top: 2.0),
+                          padding: const EdgeInsets.only(top: 1.0),
                           child: Material(
                             type: MaterialType.transparency,
                             child: DefaultTextStyle.merge(
@@ -139,7 +139,7 @@ class BottomNavStyle3 extends StatelessWidget {
           ),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.only(top: 5.0),
+              padding: const EdgeInsets.only(top: 1.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 crossAxisAlignment: CrossAxisAlignment.center,
